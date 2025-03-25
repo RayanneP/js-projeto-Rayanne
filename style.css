@@ -13,10 +13,10 @@
   font-size: 62.5%;
 
   --bg-color: #000000;
-  --second-bg-color: #C94C16;
+  --second-bg-color: #1916c9;
   --text-color: #ffffff;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 0.5);
+  --second-text-color: #1900ff;
+  --card-bg-color: hsla(247, 80%, 44%, 0.5);
 
   --first-font: 'Lato', sans-serif;
   --second-font: 'Inter', sans-serif;
@@ -37,7 +37,7 @@
   
   --button-text-color-hover: #FFFFFF;
 
-  --bg-contact: url("./img/bg-contact-dark.png");
+  --bg-contact: url("./img/world-comunication.jpg");
   --border-form: none;
   --bg-form: rgba(24, 24, 24, 0.726);
 
@@ -46,11 +46,11 @@
 
 .light {
   --bg-color: #ffffff;
-  --second-bg-color: #C94C16;
+  --second-bg-color: #168ac9;
   
   --text-color: #000000;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 1);
+  --second-text-color: #00c8ff;
+  --card-bg-color: rgb(22, 175, 202);
 
   --highlight-color: rgba(0, 0, 0, 0.25);
   --switch-bg-url: url("./img/sun.svg");
@@ -68,11 +68,11 @@
 
   --button-text-color-hover: #000000;
 
-  --bg-contact: url("./img/bg-contact-white.png");
-  --border-form: 2px solid hsla(18, 80%, 44%, 1);
+  --bg-contact: url("./img/mundoazul.jpg");
+  --border-form: 2px solid rgb(22, 187, 202);
   --bg-form: rgba(255, 255, 255, 0.726);
 
-  --color-social-media: #C94C16;
+  --color-social-media: #16b7c9;
 }
 
 body {
@@ -442,7 +442,7 @@ img.balls {
 }
 
 .line {
-  border: 2px #FF4D00 solid;
+  border: 2px #3300ff solid;
   width: 17rem;
   margin-bottom: 1rem;
 }
@@ -498,7 +498,7 @@ img.balls {
 
 .card:hover {
   cursor: pointer;
-  background-color: #FF4D00;
+  background-color: #2600ff;
   transform: translateY(-10px);
 }
 
